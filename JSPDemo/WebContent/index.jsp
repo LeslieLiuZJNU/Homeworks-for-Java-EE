@@ -20,5 +20,9 @@ table{border-collapse:collapse}
 </tr>
 <%} %>
 </table>
+<form action="check.jsp">
+<input type="submit"/>
+</form>
+<%session.setAttribute("123", "abc"); %>
 </body>
 </html>

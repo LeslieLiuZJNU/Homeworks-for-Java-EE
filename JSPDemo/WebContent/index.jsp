@@ -20,9 +20,10 @@ table{border-collapse:collapse}
 </tr>
 <%} %>
 </table>
-<form action="check.jsp">
-<input type="submit"/>
+<form action="check.jsp" method="post">
+<input type="text" name="username"/>
+<input type="password" name="password"/>
+<input type="submit" value="submit"/>
 </form>
-<%session.setAttribute("123", "abc"); %>
 </body>
 </html>

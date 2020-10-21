@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%=session.getAttribute("123") %>
+<%=request.getParameter("username") %>
+<%System.out.println(request.getParameter("username"));
+System.out.println(request.getRequestedSessionId());
+%>
 </body>
 </html>
